@@ -293,7 +293,7 @@ namespace CApp.UHCProcess
                 }
             }
             //Console.WriteLine($"minorDate: {minorDate}");
-            //Console.WriteLine($"minorDate: {majorDate}");
+            Console.WriteLine($"majorDate: {majorDate}");
 
             if (File.Exists(mainPathOutFiles + "MA_" + minorDate + "_" + majorDate + ".csv")) { File.Delete(mainPathOutFiles + "MA_" + minorDate + "_" + majorDate + ".csv"); }
 
